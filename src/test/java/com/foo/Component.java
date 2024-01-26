@@ -20,6 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Component {
+	private String unused;
 	private String name;
 	private List<Component> components = new ArrayList<Component>();
 
